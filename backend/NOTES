@@ -1,0 +1,27 @@
+get, post, pu and delete -> more understandable - HTTP Methods
+
+Kind os parameters 
+    Query Params: Usually in GET method (Does not accept Body, but add the data in URL)
+        EX: httt://doidera/?search=infodosearch
+        request.query(filters, order by, page struct, ...)
+
+    Route Params: used in PUT and DELETE methods -> Used with ONE data. Does not use a "name"
+    works only with the Route
+        request.params(identify an edit or delete a resource)
+
+    Body Params: most used
+        You can create everything with this stuff
+        as a restful api, the body should be in json
+        request.body(used in create and edit methods)
+
+ Get as usual
+ post for creating info 
+ put is for editing an info 
+ delete... well you know
+
+
+ insomnia works like postman - api test, but prettier
+
+ MONGODB
+    BD sem relacionamento - Mais rápido
+
